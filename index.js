@@ -26,4 +26,5 @@ function Calculate() {
 }
 function backSpace(){
     display.value= display.value.slice(0,-1);
+    calculated = false;
 }
